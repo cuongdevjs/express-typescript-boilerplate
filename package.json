@@ -61,7 +61,7 @@
     "microframework-w3tec": "^0.6.3",
     "morgan": "^1.9.0",
     "mysql": "^2.16.0",
-    "nodemon": "^1.12.1",
+    "nodemon": "^2.0.0",
     "nps": "^5.9.3",
     "nps-utils": "^1.5.0",
     "pg": "^7.4.3",
