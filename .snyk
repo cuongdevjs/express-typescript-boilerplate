@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - nps > lodash:
+        patched: '2022-10-05T21:46:39.571Z'
+    - winston > async > lodash:
+        patched: '2022-10-05T21:46:39.571Z'
+    - nps-utils > concurrently > lodash:
+        patched: '2022-10-05T21:46:39.571Z'
+    - express-status-monitor > handlebars > async > lodash:
+        patched: '2022-10-05T21:46:39.571Z'
+    - express-status-monitor > request-promise-native > request-promise-core > lodash:
+        patched: '2022-10-05T21:46:39.571Z'
+  SNYK-JS-TREEKILL-536781:
+    - nps-utils > concurrently > tree-kill:
+        patched: '2022-10-05T21:46:39.571Z'
